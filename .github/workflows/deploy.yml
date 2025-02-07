@@ -19,9 +19,11 @@ jobs:
           npm install
       - name: Build the app
         run: |
-          node -v
-          npm -v
           npm run build
+      - name: Set up Git identity
+        run: |
+          git config --global user.email "challa.tek@gmail.com"
+          git config --global user.name "Chandra Shekhar"
       - name: Deploy to GitHub Pages
         run: |
           npm run deploy

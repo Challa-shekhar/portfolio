@@ -37,7 +37,7 @@ export default function CarouselImage() {
               }}
             >
               <a
-                href='/FT.pdf'
+                href='/portfolio/FT.pdf'
                 rel='opener noreferrer'
                 target='_blank'
               >

@@ -106,7 +106,7 @@ class Education extends Component {
                         </div>
                       </div>
                       <div className={classes.paraWithSubheading}>
-                      <div className={classes.subHeading}>Security Engineer- Mass Mutual Financial Group (October 2016 - October 2017) </div>
+                      <div className={classes.subHeading}>Systems Engineer- Mass Mutual Financial Group (October 2016 - October 2017) </div>
                         <div className={classes.points}>
                           <div className={classes.description}>
                           Developing use cases for different scenarios when working with Hybrid cloud platform wit AWS and Private Cloud Platform.
@@ -119,7 +119,7 @@ class Education extends Component {
                         </div>
                       </div>
                       <div className={classes.paraWithSubheading}>
-                      <div className={classes.subHeading}>Security Engineer- SAE International(December 2015 - October 2016) </div>
+                      <div className={classes.subHeading}>Systems Engineer- SAE International(December 2015 - October 2016) </div>
                         <div className={classes.points}>
                           <div className={classes.description}>
                           CPerforming the hardening of AWS root accounts after requisition.Create IAM accounts for different users including developers, system admins and network admins.
@@ -178,7 +178,7 @@ class Education extends Component {
                     </div>
                     <div className={classes.label}>
                       <h2>
-                        Master's from UCM<span>2014-2016</span>
+                        Master's from UCM<span>2014-2015</span>
                       </h2>
                       <div className={classes.description}>
                         I have completed my masters from University of Central Missouri in Computer Science ,USA

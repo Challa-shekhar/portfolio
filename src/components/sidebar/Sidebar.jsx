@@ -3,7 +3,7 @@ import './Sidebar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { motion } from 'framer-motion';
 
-import logo from '../images/image.png';
+import logo from '../images/Image.png';
 import github from '../images/github.png';
 import linkedin from '../images/linkedin.png';
 import gmail from '../images/gmail.png';

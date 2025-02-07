@@ -23,7 +23,7 @@ jobs:
       - name: Set up Git identity
         run: |
           git config --global user.email "challa.tek@gmail.com"
-          git config --global user.name "Challa-Shekhar"
+          git config --global user.name "challa-shekhar"
       - name: Deploy to GitHub Pages
         run: |
           npm run deploy

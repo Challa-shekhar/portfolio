@@ -25,7 +25,7 @@ jobs:
           git config --global user.email "challa.tek@gmail.com"
           git config --global user.name "challa-shekhar"
       - name: Deploy to GitHub Pages
-        run: |
-          npm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist 
